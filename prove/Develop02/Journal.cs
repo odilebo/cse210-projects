@@ -26,7 +26,7 @@ public class Journal
 
     public void DisplayAll()
     { 
-        Console.WriteLine("Okay");
+        
         
         foreach (var newEntry2 in _entries)
          {

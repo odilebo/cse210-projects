@@ -1,15 +1,16 @@
 public class PromptGenerator 
 {
     public List<string> _prompts = new List<string>() {
-        "How are you doing?",
-        "What did you do today?",
-        "What's your favorite hobby?",
-        "Have you read any good books lately?",
-        "What's your favorite movie?",
-        "What are your plans for the weekend?",
-        "Do you have any pets?",
-        "What's your favorite food?",
-        "Where would you like to travel next?",
+            "What new thing did I learn today?",
+            "What was the most challenging part of my day and how did I handle it?",
+            "What is something I did today that I'm proud of?",
+            "Who did I help or support today, and how did it make me feel?",
+            "What is one thing I could have done to make today better?",
+            "How did I practice self-care today?",
+            "What was the most unexpected thing that happened today?",
+            "How did I step out of my comfort zone today?",
+            "What am I grateful for today?",
+            "What is one thing I am looking forward to tomorrow?"
 
     };
     public string GetRandomPrompt()
