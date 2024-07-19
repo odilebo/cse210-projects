@@ -10,7 +10,7 @@ class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine(scripture.GetDisplayText());
+            Console.WriteLine(scripture.GetDisplayText()); 
             Console.WriteLine("\nPress enter to hide words or type 'quit' to exit.");
 
             string input = Console.ReadLine();
@@ -23,7 +23,7 @@ class Program
             if (scripture.IsCompletelyHidden())
             {
                 Console.Clear();
-                Console.WriteLine("All words are hidden.");
+                Console.WriteLine("All words have been hidden the program has ended. Thank you");
                 break; 
             }
         }
