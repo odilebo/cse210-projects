@@ -5,10 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a list of videos
+       
         List<Video> videos = new List<Video>();
 
-        // Create and add videos
+        
         Video video1 = new Video("Exploring the Mountains", "John Doe", 360);
         video1.AddComment(new Comment("Alice", "Amazing video!"));
         video1.AddComment(new Comment("Bob", "I love the scenery."));
@@ -33,7 +33,7 @@ class Program
         video4.AddComment(new Comment("Leo", "Great session."));
         videos.Add(video4);
 
-        // Display each video and its comments
+
         foreach (var video in videos)
         {
             video.Display();
