@@ -1,4 +1,5 @@
-public class EternalGoal : Goal
+public class  
+
 {
     public EternalGoal(string name, string description, int points) : base(name, description, points)
     {
